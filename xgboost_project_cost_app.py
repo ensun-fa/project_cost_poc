@@ -211,3 +211,4 @@ predict = model.predict(new_data)
 # Display column
 with col4:
     st.write("##### Predicted project cost: $", f"{predict[0]:,.2f}")
+    st.write("Instruction: Add tickets to the project to simulate the project costs")
